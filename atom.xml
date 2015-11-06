@@ -4,7 +4,7 @@
   <title><![CDATA[Revolution ...]]></title>
   <link href="http://spcrxj.github.io/atom.xml" rel="self"/>
   <link href="http://spcrxj.github.io/"/>
-  <updated>2015-11-07T05:19:13+13:00</updated>
+  <updated>2015-11-07T06:40:05+13:00</updated>
   <id>http://spcrxj.github.io/</id>
   <author>
     <name><![CDATA[Xenophon]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Starting my IOS app development]]></title>
+    <link href="http://spcrxj.github.io/blog/2015/11/07/starting-my-ios-app-development/"/>
+    <updated>2015-11-07T06:35:58+13:00</updated>
+    <id>http://spcrxj.github.io/blog/2015/11/07/starting-my-ios-app-development</id>
+    <content type="html"><![CDATA[<p>Just finished my project.
+Been working such a long time to finish it. During the development I learned a lot.
+Finish is not just the end of the story. It&rsquo;s the beginning.</p>
+
+<p>Hope everything goes well everyday.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The first day]]></title>
