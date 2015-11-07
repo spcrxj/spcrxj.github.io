@@ -4,7 +4,7 @@
   <title><![CDATA[Revolution ...]]></title>
   <link href="http://spcrxj.github.io/atom.xml" rel="self"/>
   <link href="http://spcrxj.github.io/"/>
-  <updated>2015-11-07T06:40:05+13:00</updated>
+  <updated>2015-11-08T00:24:19+13:00</updated>
   <id>http://spcrxj.github.io/</id>
   <author>
     <name><![CDATA[Xenophon]]></name>
@@ -12,6 +12,73 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Hub 學習筆記(1)]]></title>
+    <link href="http://spcrxj.github.io/blog/2015/11/08/git-hub-xue-xi-bi-ji-1)/"/>
+    <updated>2015-11-08T00:05:24+13:00</updated>
+    <id>http://spcrxj.github.io/blog/2015/11/08/git-hub-xue-xi-bi-ji-1)</id>
+    <content type="html"><![CDATA[<p>創建本地倉庫的克隆副本
+git clone /path/to/repository</p>
+
+<p>如果需要克隆遠端倉庫的副本
+git clone username@host:/path/to/repository</p>
+
+<p>git 由工作目錄，暫時存儲區 ， 還有HEAD組成。工作目錄裏面有實際的文件。 暫時存儲區(index)是一個緩存區域，臨時保存所做的改動。最後是HEAD，最後一次提交的結果。</p>
+
+<p>提出更改
+git add <filename>
+git add *</p>
+
+<p>提交更改
+git commit -m “代碼提交信息”
+這句把已經改動提交到了HEAD，但是並沒有提交到遠端的倉庫</p>
+
+<p>推送改動
+git push origin master
+上面推送的是master分支</p>
+
+<p>如果並沒有克隆現由的倉庫，並且你想把你的倉庫鏈接到某個遠程服務器，可以使用這個命令
+git remote add origin <server></p>
+
+<p>然後這樣就把改動推送到服務器上面去了</p>
+
+<p>關於分支
+master是default分支。一般情況下會在別的分支上進行開發，然後合併到主分支上</p>
+
+<p>實例：</p>
+
+<p>創建一個叫workspace的分支
+git checkout -b workspace
+-b  ：  branch</p>
+
+<p>切換主分支
+git checkout master</p>
+
+<p>刪除新建的workspace分支
+git branch -d workspace
+-d  ：  delete</p>
+
+<p>再沒有把分支推送到遠端倉庫之前，別人是看不到你的分支的
+git push origin <branch></p>
+
+<p>如果要更新本地的倉庫到最新版本
+git pull</p>
+
+<p>如果要在你的工作目錄 獲取fetch 而且合併merge 遠端的改動
+而且合併其他的分支到當前分支
+git merge <branch></p>
+
+<p>查看差異
+git diff <source_branch> <target_branch></p>
+
+<p>創建標籤
+git tag 1.0.0 1234567890
+1234567890是提交id的前10位數</p>
+
+<p>使用git log 獲取提交id</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Starting my IOS app development]]></title>
