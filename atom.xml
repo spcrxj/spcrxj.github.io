@@ -4,7 +4,7 @@
   <title><![CDATA[Revolution ...]]></title>
   <link href="http://spcrxj.github.io/atom.xml" rel="self"/>
   <link href="http://spcrxj.github.io/"/>
-  <updated>2015-11-08T00:25:17+13:00</updated>
+  <updated>2015-11-09T02:52:54+13:00</updated>
   <id>http://spcrxj.github.io/</id>
   <author>
     <name><![CDATA[Xenophon]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[[Note] Font for termite]]></title>
+    <link href="http://spcrxj.github.io/blog/2015/11/09/note-font-for-termite/"/>
+    <updated>2015-11-09T02:51:36+13:00</updated>
+    <id>http://spcrxj.github.io/blog/2015/11/09/note-font-for-termite</id>
+    <content type="html"><![CDATA[<p>Inconsolata-dz for Powerline 8</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TMUX 學習日記 (未完)]]></title>
+    <link href="http://spcrxj.github.io/blog/2015/11/09/tmux-xue-xi-ri-ji/"/>
+    <updated>2015-11-09T02:00:10+13:00</updated>
+    <id>http://spcrxj.github.io/blog/2015/11/09/tmux-xue-xi-ri-ji</id>
+    <content type="html"><![CDATA[<p>進入tmux ： tmux ，如果要退出輸入exit Ctrl + D</p>
+
+<p>新建新窗口 ： Ctrl + b ， c</p>
+
+<p>切換窗口
+向前 ： Ctrl + b ，p
+向後 ： Ctrl + b ， n
+列出所有窗口 Ctrl + w
+關閉窗口 Ctrl + b &amp;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Hub 學習筆記(1)]]></title>
